@@ -1,0 +1,31 @@
+<html>
+  <body>
+   <h3>To see whether a number is true, false ,null or undefined</h3>
+   <script>
+     var a=56;
+     var b=null;
+     var c;
+     var d=56;
+     var e=88;
+     document.write("a and b are equal : " + (a==d));
+     document.write("<br>");
+     document.write("b and c are equal : " + (b==e));
+     document.write("<br>");
+     document.write("The value of d is : " + b);
+     document.write("<br>");
+     document.write("The value of e is : " + c);
+     document.write("<br>");
+   </script>
+         <h2>While Loop</h2>
+               <p id="1"></p>
+             <script>
+        var text="";
+        var i = 1;
+        while(i < 64){
+          text +="<br>The number is"+ i;
+          i++;
+        }
+        document.getElementById("1").innerHTML= text;
+      </script>
+  </body>
+</html>
